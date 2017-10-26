@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+  font-family: 'Raleway';
 }
 
 img {
@@ -71,3 +72,58 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+.inline-block {
+  display: inline-block;
+}
+
+header {
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  padding: 20px 160px 10px 80px;
+  width: 100%;
+  font-weight: 700;
+  z-index: 1000;
+}
+
+header figure img {
+  width: 65px;
+}
+header figure {
+  float: right;
+}
+
+header div {
+  padding-left: 20px; 
+  padding-top: 20px;
+}
+
+header div a {
+  margin: 0 20px;
+}
+
+#intro {
+  text-align: center;
+  color: #fff;
+  background-image: url(../assets/images/bg-home.jpg);
+  margin-top: 100px;
+
+}
+
+#intro div {
+  padding: 0 50px 70px 0;
+}
+
+#intro h2 {
+  font-size: 24px;
+}
+
+#intro h1 {
+  font-size: 53px;
+}
+
+#intro a {
+  padding: 14px;
+  background-color: green;
+  color: #fff;  
+}
